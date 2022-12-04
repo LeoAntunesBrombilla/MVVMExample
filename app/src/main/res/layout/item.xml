@@ -17,24 +17,23 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
-            android:padding="16dp"
             android:gravity="center"
+            android:padding="16dp"
             android:text="@string/list"
-            android:textColor="#000"
-            />
+            android:textColor="#000" />
 
         <ImageButton
+            android:id="@+id/delete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
             android:layout_margin="@dimen/default_margin"
-            android:src="@drawable/icons8_trash_can"
             android:backgroundTint="@color/white"
-            tools:ignore="SpeakableTextPresentCheck"
-            android:contentDescription="@string/delete_icon" />
-
+            android:contentDescription="@string/delete_icon"
+            android:src="@drawable/icons8_trash_can"
+            tools:ignore="SpeakableTextPresentCheck" />
 
 
     </RelativeLayout>
