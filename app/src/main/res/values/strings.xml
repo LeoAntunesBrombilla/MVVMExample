@@ -3,4 +3,6 @@
     <string name="addName">Adicione o nome da tarefa aqui!</string>
     <string name="send">Enviar</string>
     <string name="cancel">Cancelar</string>
+    <string name="list">lista</string>
+    <string name="delete_icon">delete icon</string>
 </resources>
